@@ -1,0 +1,51 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFD700"/>
+    <stop offset="1" stop-color="#FF9D00"/>
+  </linearGradient>
+
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#111111"/>
+    <stop offset="1" stop-color="#000000"/>
+  </linearGradient>
+</defs>
+
+<!-- Background -->
+<rect width="512" height="512" rx="120" fill="url(#bg)"/>
+
+<!-- Digital Book Icon -->
+<path d="M150 150C150 133 163 120 180 120H240C270 120 300 135 320 155V360C300 340 270 330 240 330H180C163 330 150 317 150 300V150Z"
+fill="url(#gold)"/>
+
+<path d="M362 150C362 133 349 120 332 120H272C242 120 212 135 192 155V360C212 340 242 330 272 330H332C349 330 362 317 362 300V150Z"
+fill="#FFFFFF"/>
+
+<!-- AI Symbol -->
+<circle cx="256" cy="230" r="45" fill="#111111"/>
+<text x="256" y="245" text-anchor="middle"
+font-family="Arial, sans-serif"
+font-size="45"
+font-weight="bold"
+fill="#FFD700">AI</text>
+
+<!-- Store Name -->
+<text x="256" y="410"
+text-anchor="middle"
+font-family="Arial, sans-serif"
+font-size="48"
+font-weight="bold"
+fill="white">
+BK
+</text>
+
+<text x="256" y="455"
+text-anchor="middle"
+font-family="Arial, sans-serif"
+font-size="22"
+fill="#FFD700">
+DIGITAL STORE
+</text>
+
+</svg>
